@@ -6,7 +6,10 @@
       <el-col>
         <div class="grid-content">
           <div class="grid-title">
-            <router-link class="text-link" to="">element</router-link>
+            <router-link class="text-link" to="">
+              <i class="el-icon-collection"></i>
+              <span>element</span>
+            </router-link>
           </div>
           <div class="grid-desc">
             Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库
@@ -19,7 +22,10 @@
       <el-col>
         <div class="grid-content">
           <div class="grid-title">
-            <router-link class="text-link" to="">mint-ui</router-link>
+            <router-link class="text-link" to="">
+              <i class="el-icon-collection"></i>
+              <span>mint-ui</span>
+            </router-link>
           </div>
           <div class="grid-desc">
             基于 Vue.js 的移动端组件库
@@ -32,7 +38,10 @@
       <el-col>
         <div class="grid-content">
           <div class="grid-title">
-            <router-link class="text-link" to="">cooking</router-link>
+            <router-link class="text-link" to="">
+              <i class="el-icon-collection"></i>
+              <span>cooking</span>
+            </router-link>
           </div>
           <div class="grid-desc">
             更易上手的前端构建工具
@@ -49,7 +58,10 @@
       <el-col>
         <div class="grid-content">
           <div class="grid-title">
-            <router-link class="text-link" to="">node-interview</router-link>
+            <router-link class="text-link" to="">
+              <i class="el-icon-collection"></i>
+              <span>node-interview</span>
+            </router-link>
           </div>
           <div class="grid-desc">
             How to pass the Node.js interview of ElemeFE.
@@ -63,7 +75,10 @@
       <el-col>
         <div class="grid-content">
           <div class="grid-title">
-            <router-link class="text-link" to="">vue-amap</router-link>
+            <router-link class="text-link" to="">
+              <i class="el-icon-collection"></i>
+              <span>vue-amap</span>
+            </router-link>
           </div>
           <div class="grid-desc">
             基于 Vue 2.x 和高德地图的地图组件
@@ -77,7 +92,10 @@
       <el-col>
         <div class="grid-content">
           <div class="grid-title">
-            <router-link class="text-link" to="">v-charts</router-link>
+            <router-link class="text-link" to="">
+              <i class="el-icon-collection"></i>
+              <span>v-charts</span>
+            </router-link>
           </div>
           <div class="grid-desc">
             基于 Vue2.0 和 ECharts 封装的图表组件
@@ -120,6 +138,12 @@ export default {
           display block
           &:hover
             text-decoration underline
+          i,span 
+            vertical-align middle
+          .el-icon-collection
+           margin-right 5px
+           position relative
+           top: 1px
       .grid-desc
         font-size 12px
         margin 8px 0 16px 0

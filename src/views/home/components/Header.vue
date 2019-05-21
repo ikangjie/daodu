@@ -17,7 +17,7 @@
             <span class="counter">6</span>
           </router-link>
         </div>
-        <el-input v-model="input" placeholder="请输入内容" clearable></el-input>
+        <el-input v-model="input" placeholder="请输入关键字" clearable></el-input>
         <el-button type="primary" icon="el-icon-search" style="height:40px;margin-left:5px">搜索</el-button>
       </div>
     </div>
