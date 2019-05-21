@@ -3,6 +3,7 @@
       <div class="container">
         <wiki-side-menu></wiki-side-menu>
         <wiki-content></wiki-content>
+        <wiki-scroll-top></wiki-scroll-top>
       </div>
     </div>
 </template>
@@ -10,12 +11,23 @@
 <script>
 import WikiSideMenu from './components/SideMenu'
 import WikiContent from './components/Content'
+import WikiScrollTop from '@/common/scrolltop/ScrollTop'
 export default {
   name: 'Wiki',
   components: {
     WikiSideMenu,
-    WikiContent
-  }  
+    WikiContent,
+    WikiScrollTop
+  },
+  mounted () {
+    // this.$axios.get("/yuanlaijike/article/details/80522621")
+    // .then(res=>{
+    //   console.log(res)
+    // })
+    // .catch(err=>{
+    //   console.log(err)
+    // })
+  }
 }
 </script>
 

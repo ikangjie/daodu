@@ -33,13 +33,21 @@
               </template>            
             </el-menu-item>
 
+            <!-- <el-menu-item class="menu-search">
+              <el-input
+                placeholder="请输入内容 / 回车键搜索"
+                prefix-icon="el-icon-search"
+              >
+              </el-input>
+            </el-menu-item> -->
+
             <el-submenu index="1">
               <template slot="title">
                 <span>Vue 成长之路</span>
               </template>
               <el-menu-item index="1-1">
                 <span>入门</span>
-                <span class="counter">180</span>
+                <span class="counter">4</span>
               </el-menu-item>
               <el-menu-item index="1-2">
                 <span>进阶</span>
@@ -145,11 +153,15 @@ export default {
         color #303133
   >>> .el-scrollbar__wrap
         overflow-x hidden
+      .menu-search,
+      .menu-tools
+        padding 0 !important
+        cursor: inherit
+        background-color #fff
       .menu-tools
         cursor: inherit
         background-color #fff
         display flex
-        padding-right 0
         .back-home,
         .menu-spare
           flex 1

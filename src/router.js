@@ -18,7 +18,15 @@ export default new Router({
       component: () => import('./views/wiki/Wiki.vue')
     }
   ],
-  scrollBehavior () {
+  // eslint-disable-next-line no-unused-vars
+  scrollBehavior (_to, _from, _savedPosition) {
     return { x: 0, y: 0 }
+    // if (to.hash) {
+    //   return {
+    //     selector: to.hash
+    //   }
+    // }else{
+    //   return { x: 0, y: 0 }
+    // }
   }
 })
